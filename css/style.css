@@ -122,6 +122,7 @@ header {
 
 
 
+
 /* ########### user ########### */
 
 .user_wrapper {
@@ -140,6 +141,19 @@ header {
         flex-direction: column;
         justify-content: space-between;
         background-color: rgba(128, 128, 128, 0.177);
+    }
+}
+
+.containerr {
+    max-width: 82%;
+    margin: 0 auto;
+}
+
+.tbody {
+    tr {
+        td {
+            text-align: center;
+        }
     }
 }
 
